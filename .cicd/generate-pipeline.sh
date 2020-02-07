@@ -572,7 +572,7 @@ cat <<EOF
     env:
       IMAGE_TAG: "ubuntu-16.04-$PLATFORM_TYPE"
       PLATFORM_TYPE: $PLATFORM_TYPE
-       PLATFORM_NAME_FULL: ":ubuntu: Ubuntu 16.04"
+      PLATFORM_NAME_FULL: ":ubuntu: Ubuntu 16.04"
       OS: "ubuntu-16.04" # OS and PKGTYPE required for lambdas
       PKGTYPE: "deb"
     agents:
