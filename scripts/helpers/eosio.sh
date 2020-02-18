@@ -118,7 +118,7 @@ function previous-install-prompt() {
 }
 
 function resources() {
-    #echo "${COLOR_CYAN}EOSIO website:${COLOR_NC} https://eos.io"
+    echo "${COLOR_CYAN}Genica website:${COLOR_NC} https://genica-life.com"
     #echo "${COLOR_CYAN}EOSIO Telegram channel:${COLOR_NC} https://t.me/EOSProject"
     #echo "${COLOR_CYAN}EOSIO resources:${COLOR_NC} https://eos.io/resources/"
     #echo "${COLOR_CYAN}EOSIO Stack Exchange:${COLOR_NC} https://eosio.stackexchange.com"
