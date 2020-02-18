@@ -223,6 +223,16 @@ execute cd $REPO_ROOT 1>/dev/null
 
 TIME_END=$(( $(date -u +%s) - $TIME_BEGIN ))
 
+echo " _________   _______  ___       _  _______   ______  _______ "
+echo "|  _______| |  _____||   \     | ||_______| |  ____||  ___  |"
+echo "|  |        | |      | |\ \    | |   | |    | |     | |   | |"
+echo "|  |  ____  | |__    | | \ \   | |   | |    | |     | |___| |"
+echo "|  | |__  | |  __|   | |  \ \  | |   | |    | |     |  ___  |"
+echo "|  |   |  | | |      | |   \ \ | |   | |    | |     | |   | |"
+echo "|  |___|  | | |_____ | |    \ \| | __| |___ | |____ | |   | |"
+echo "|_________| |_______||_|     \___||________||______||_|   |_|"
+echo "==============================================================${COLOR_NC}"
+
 echo " _______  _______  _______ _________ _______"
 echo "(  ____ \(  ___  )(  ____   __   __ (  ___  )"
 echo "| (    \/| (   ) || (    \/   ) (   | (   ) |"
@@ -233,7 +243,7 @@ echo "| (____/\| (___) |/\____) |___) (___| (___) |"
 echo "(_______/(_______)\_______)\_______/(_______)"
 echo "=============================================${COLOR_NC}"
 
-echo "${COLOR_GREEN}EOSIO has been successfully built. $(($TIME_END/3600)):$(($TIME_END%3600/60)):$(($TIME_END%60))"
+echo "${COLOR_GREEN}GENICA (EOSIO) has been successfully built. $(($TIME_END/3600)):$(($TIME_END%3600/60)):$(($TIME_END%60))"
 echo "${COLOR_GREEN}You can now install using: ${SCRIPT_DIR}/eosio_install.sh${COLOR_NC}"
 echo "${COLOR_YELLOW}Uninstall with: ${SCRIPT_DIR}/eosio_uninstall.sh${COLOR_NC}"
 

@@ -118,10 +118,10 @@ function previous-install-prompt() {
 }
 
 function resources() {
-    echo "${COLOR_CYAN}EOSIO website:${COLOR_NC} https://eos.io"
-    echo "${COLOR_CYAN}EOSIO Telegram channel:${COLOR_NC} https://t.me/EOSProject"
-    echo "${COLOR_CYAN}EOSIO resources:${COLOR_NC} https://eos.io/resources/"
-    echo "${COLOR_CYAN}EOSIO Stack Exchange:${COLOR_NC} https://eosio.stackexchange.com"
+    #echo "${COLOR_CYAN}EOSIO website:${COLOR_NC} https://eos.io"
+    #echo "${COLOR_CYAN}EOSIO Telegram channel:${COLOR_NC} https://t.me/EOSProject"
+    #echo "${COLOR_CYAN}EOSIO resources:${COLOR_NC} https://eos.io/resources/"
+    #echo "${COLOR_CYAN}EOSIO Stack Exchange:${COLOR_NC} https://eosio.stackexchange.com"
 }
 
 function print_supported_linux_distros_and_exit() {
